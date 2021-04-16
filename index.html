@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h5 id=header>Game rock paper scissors</h5>
+    <div id=display>
+        <div id=handle>
+            <button id=btn-paper onclick="paper()"><img src="paper.png"></button><br>
+            <button id=btn-rock onclick="rock()"><img src="rock.png"></button><br>
+            <button id=btn-scissors onclick="scissors()"><img src="scessior.png"></button>
+        </div>
+        <div id=area>
+            <div id=player_side>
+                <p id=overall_player></p>
+                <p id="player">Player</p>
+                <img id=show_result>
+            </div>
+            <div id=ai_side>
+                <p id=overall_ai></p>
+                <p id="ai">AI</p>
+                <img id=show_result_ai>
+            </div>
+            <div id='footer'>
+                <h3 id=end></h3>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
